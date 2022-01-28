@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contain{
+    height: 100vh;
+    background: rgb(126, 250, 174);
+    display: flex;
+    justify-content: center;
+    /* background-image: url(./image/pexels-photo-355241.jpeg);
+    background-attachment: fixed; */
+    flex-wrap: wrap;
+}
+
+.header{
+    width: 980px;
+    height: 300px;
+    /* background: rgb(215, 245, 233); */
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-image: url('./image/pexels-photo-346529.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.my_image{
+    width: 200px;
+    height: 200px;
+    /* background: rgb(248, 170, 170); */
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url('./image/my_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 26px;
+    background-position-y: -20px;
+    box-shadow: 0 0 0 5px rgb(145, 145, 182);
+}
+
+.my_image:hover{
+    background-position-y: -35px;
+    transition: all 0.5s linear;
+}
+
+.header p{
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    color: rgb(72, 247, 209);
+    
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    background: rgb(126, 250, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    width: 900px;
+    height: 60vh;
+}
+
+.contact>p{
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+    font-weight: 600;
+    font-family: 'Satisfy';
+    margin-bottom: 40px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu a{
+    text-decoration: none;
+}
+.face, 
+.git,
+.instagram,
+.youtube,
+.phone{
+    width: 26%;
+    height: 220px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.face{
+    background-color: aqua;
+    position: relative;
+}
+
+.face:hover i,
+.git:hover i,
+.instagram:hover i,
+.youtube:hover i,
+.phone:hover i{
+    margin-top: -50px;
+    color: rgb(182, 122, 238);
+    transition: all 0.5s linear;
+}
+
+.menu a:hover p{
+    color: rgb(165, 37, 5);
+    box-shadow: 0 0 5px 5px rgb(240, 149, 149);
+    margin-top: 100px;
+    transition: all 0.5s linear;
+}
+
+.menu a:hover{
+    background: wheat;
+    transition: all 0.8s linear;
+}
+
+.face> p{
+    z-index: 1;
+    color: rgb(26, 52, 53);
+    font-family: 'Lobster';
+}
+
+.fab{
+    position: absolute;
+    /* color: rgba(rgb(192, 11, 11), rgb(223, 130, 8), rgb(216, 13, 108), 0.4); */
+    color: rgb(245, 174, 174);
+    font-size: 100px;
+}
+
+.fas{
+    position: absolute;
+    /* color: rgba(rgb(192, 11, 11), rgb(223, 130, 8), rgb(216, 13, 108), 0.4); */
+    color: rgb(245, 174, 174);
+    font-size: 100px;
+}
+
+.git{
+    background-color: rgb(236, 79, 223);
+}
+
+.git>p{
+    z-index: 1;
+    color: rgb(26, 52, 53);
+    font-family: 'Lobster';
+}
+
+.instagram{
+    background-color: rgb(202, 173, 6);
+}
+
+.instagram >p{
+    z-index: 1;
+    color: rgb(26, 52, 53);
+    font-family: 'Lobster';
+}
+
+.youtube{
+    background: rgb(240, 160, 56);
+}
+
+.youtube >p{
+    z-index: 1;
+    color: rgb(26, 52, 53);
+    font-family: 'Lobster';
+}
+
+.phone{
+    background: rgb(57, 170, 245);
+}
+
+.phone > p{
+    z-index: 1;
+    color: rgb(26, 52, 53);
+    font-family: 'Lobster';
+}
+
+
+.footer{
+ 
+    
+}
